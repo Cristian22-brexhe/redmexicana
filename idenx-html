@@ -1,0 +1,197 @@
+ <nav class="navbar navbar-expand-lg row mx-md-n5 navbar-light bg-white col  "  >
+
+        <div class="collapse navbar-collapse  " id="navbarNav"  >
+
+            <ul class="navbar-nav nav-justified " >
+                <li class="nav-item active col px-md-5">
+                    <a class="nav-link" href="#">Empleate<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-itemcol px-md-5 ">
+                    <a class="nav-link" href="#">Servicio</a>
+                </li>
+                <li class="nav-item col px-md-5 ">
+                    <a class="nav-link" href="#">Cotización</a>
+                </li>
+                <li class="nav-item col px-md-5">
+                    <a class="nav-link" href="#">Enfermeros</a>
+                </li>
+                <li class="nav-item col px-md-5">
+                    <a class="nav-link" href="#">Empresa</a>
+                </li>
+                <li class="nav-item col px-md-5">
+                    <a class="nav-link" href="#">Como Funciona</a>
+                    
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Registrate</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+
+                                <form>
+                                    <div class="form-group ">
+                        
+                                      <label for="exampleInputEmail1">Correo Electronico</label>
+                                      <input type="text" class="form-control" id="exampleInl1putEmai" aria-describedby="emailHelp">
+                                      
+                                    </div>
+                                   
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contraseña</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+
+                                        <small id="emailHelp" class="form-text text-muted">Al enviar se acepta la política de privacidad. </small>
+                        
+                                    </div>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+        
+
+
+      <!-- sagdjhasda aqui empieza el carrusel  y el texto-->
+    
+<div class="  row">
+
+        <div class=" col-6 ">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="enfer_imageeeee.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+              </div>
+            </div>
+
+<div class="col-6">
+  <div class="card-header">
+    <div class=" card-body">
+        <h2 style="color: #009eac;">Somos especialistas en brindar cuidadores de vanguardia enfocados en la persona y sus necesidades.</h2>
+        <form>
+            <div class="form-group ">
+
+              <label for="exampleInputEmail1">Nombre</label>
+              <input type="text" class="form-control" id="exampleInl1putEmai" aria-describedby="emailHelp">
+              
+            </div>
+
+            <div class="container  " >
+                <div class="row"    style="justify-content: flex-start;">
+                  <div class="col">
+                      
+                    <label for="exampleInputPassword1">Telefonía de Contacto</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" >
+                  </div>
+                  <div class="col">
+                    <label for="exampleInputPassword1">Correo Electrónico</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+
+                  </div>
+                </div>
+            </div>
+           
+            <div class="form-group">
+                <label for="exampleInputPassword1">¿Ques Estas Buscando?</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+                <small id="emailHelp" class="form-text text-muted">Al enviar se acepta la política de privacidad. </small>
+
+            </div>
+            
+            <button type="submit" class="btn " style="background-color: #6c9cb6;">Enviar Información</button>
+          </form>
+        </div>
+   </div>
+</div>
+
+<!--Segunda Seccion-->
+
+<div class="container justify-content-center ">
+        <h2 class="text-center m-1" style="color: #009eac; ">Recomendados por médicos de: </h2>
+        <img src="">
+</div>
+
+
+<div class="row mx-auto ">
+
+    <div class="col-6 ">
+        <img src="enfer_imageeeee.jpg"  class="rounded  "  alt="img1" style="width: 20rem; ">
+    </div>
+
+    <div class="col-6 " >
+        <img src="enfer_imageeeee.jpg"  class="rounded  " alt="img2" style="width: 20rem; ">
+
+
+    </div>
+    
+    
+
+</div>
+
+<!--Footer-->
+
+<footer class="col-12">
+    <nav class="nav nav-pills  flex-sm-row " >
+        <div class="col-3">
+            <h5 class="flex-sm-fill text-sm-center  " style="color:#44e744;">Contacto</h5>
+            <h7 class="flex-sm-fill text-sm-center nav-link" style="color: white;">Teléfono <br>5529092211</h7>
+            <h7 class="flex-sm-fill text-sm-center nav-link" style="color: white;">Correo Electrónico 
+                <br>Red_Mexican@hotmail.com</h7>
+        </div>
+        
+        <div class="col-3">
+            <h5 class="flex-sm-fill text-sm-center  " style="color:#44e744;" >Redes Sociales</h5>
+            
+            
+        </div>
+
+        <div class="col-3">
+            <a class="flex-sm-fill text-sm-center " style="color: #44e744;" href="#">
+                <h5>Quienes Somos</h5></a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="color: white;" href="#">Seguridad <a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="color: white; " href="#">Blog</a>
+        </div>
+        
+        <div class="col-3">
+            <a class="flex-sm-fill text-sm-center k" style="color: #44e744;" href="#">
+                <h5>Oportunidades Laborales</h5></a>
+        </div>
+        
+    </nav>
+
+</footer>
+<script src="popup.js"></script>
